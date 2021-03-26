@@ -1,0 +1,101 @@
+!.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Vim
+*.swp
+*.swo
+~$*
+
+ExcelWriter-Testsheet.xlsx
+ExcelWriter-Testsheet-multi.xlsx
+ExcelWriter-Testsheet-subtlelib.xlsx
+
+# Intellij
+.idea
+*.ipr
+*.iws
+*.iml
+.idea_modules
+
+# eclipse files
+.classpath
+.project
+.wtpmodules
+.settings
+
+# IDE - VSCode
+.vscode
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Maven
+target
+.flattened-pom.xml
+log
+pom.xml.versionsBackup
+
+# Gradle
+.gradle
+dist
+build
+
+# Python
+venv
+
+# Eslint
+.eslintcache
+
+.config-dev/*
+!.config-dev/*.example
+
+# Generated grpc sources for zonewrapper service
+/service/zonewrapper/gen
+# Virtual environment
+/service/zonewrapper/env
+
+__pycache__
+
+# Documentation
+server/lct.platform.web/src/main/resources/static/doc/
+
+# K8s
+.cr-release-packages
+
+# Misc
+*.launch
+*.sublime-workspace
+*.unison.tmp
+.c9/
+.cache/
+.config/
+.npm/
+.sass-cache
+.tmp
+app/api
+app/images/maps
+bazel-out
+bower_components
+chrome-profiler-events*.json
+connect.lock
+coverage
+e2e-dist
+libpeerconnection.log
+logs/*
+typings
+node_modules
+npm-debug.log
+yarn-error.log
+testem.log
+out-tsc
+speed-measure-plugin*.json
+test-output
+tmp
+ui/dist-assembled
+ui/dist-assembled-dev
+ui/proxy/user.credentials*
